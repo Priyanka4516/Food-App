@@ -6,6 +6,12 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ParentComponentComponent } from './parent-component/parent-component.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { CardsComponent } from './cards/cards.component';
+import { PlansComponent } from './plans/plans.component';
+import { MapComponent } from './map/map.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 
 @NgModule({
@@ -13,7 +19,13 @@ import { NavigationBarComponent } from './navigation-bar/navigation-bar.componen
     AppComponent,
     HeaderComponent,
     ParentComponentComponent,
-    NavigationBarComponent
+    NavigationBarComponent,
+    CarouselComponent,
+    CardsComponent,
+    PlansComponent,
+    MapComponent,
+    FooterComponent,
+   
   ],
   imports: [
     BrowserModule,

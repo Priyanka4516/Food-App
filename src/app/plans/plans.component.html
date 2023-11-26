@@ -1,0 +1,23 @@
+<div class="Plan-main-container">
+    <div class="plan" [ngStyle]="{'background-color':color,'color':text_color}">
+        <h3>Plan 1</h3>
+    </div>
+    
+    <div class="seatings" >
+        {{seating}}
+    </div>
+    <hr>
+    <div class="rupees">
+        
+        <i class="fa-solid fa-indian-rupee-sign"></i>{{price}}
+    </div>
+    <hr>
+    <div class="list" *ngFor="let list of lists">
+        <li>{{list}}</li>
+    </div>
+    <div class="More-plan-Container">
+        <div class="More-plan" [ngStyle]="{'background-color':color,'color':text_color}">
+            Browse More plan
+        </div>
+    </div>
+</div>

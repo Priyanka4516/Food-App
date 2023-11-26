@@ -1,0 +1,29 @@
+.carousel{
+    position: relative;
+    width: 100%;
+    .previous-button{
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        background: transparent;
+        color: black;
+        font-size: 80px;
+        border: none;
+                
+    }
+    .Hotel-image{
+        width: 100%;
+        height: 550px;
+    }
+    .next-button{
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        background: transparent;
+        color: black;
+        font-size: 80px;
+        border: none;
+                
+        
+    }
+}

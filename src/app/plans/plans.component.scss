@@ -1,0 +1,50 @@
+.Plan-main-container{
+    height: fit-content;
+    width: 300px;
+    box-shadow: 8px 10px 12px 2px;
+    text-align: center;
+    border-radius: 8px;
+    
+    
+    .plan{
+        height: 60px;
+        
+        text-transform: uppercase;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: center;
+        border-radius: 8px;
+        
+        
+        
+    }
+    .More-plan-Container{
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        
+        .More-plan{
+            
+            
+            width: 250px;
+            align-items: center;
+            height: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 5px;
+        
+        
+
+    }
+    }
+    .list{
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+}
